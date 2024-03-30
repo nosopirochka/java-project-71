@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          build-root-directory: app
       - uses: actions/setup-java@v4
         with:
           java-version: '20'
