@@ -3,4 +3,4 @@
 ### Code Climate:
 [![Maintainability](https://api.codeclimate.com/v1/badges/a8c383d735d155acb10a/maintainability)](https://codeclimate.com/github/nosopirochka/java-project-71/maintainability)
 ### Video of application in working:
-[![asciicast](https://asciinema.org/a/pVP2A0kqnzek9WcOhlhNvnRxd.svg)](https://asciinema.org/a/pVP2A0kqnzek9WcOhlhNvnRxd)
+<script src="https://asciinema.org/a/pVP2A0kqnzek9WcOhlhNvnRxd.js" id="asciicast-649360" async="true"></script>
