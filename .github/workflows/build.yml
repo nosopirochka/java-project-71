@@ -11,6 +11,5 @@ jobs:
           distribution: 'temurin'
       - uses: gradle/gradle-build-action@v3
         with:
-          build-root-directory: app
           gradle-version: 8.3
       - run: cd app && make build
