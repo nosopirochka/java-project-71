@@ -6,3 +6,5 @@ main-test:
 	./gradlew checkstyleMain
 test-test:
 	./gradlew checkstyleTest
+build:
+	./gradlew build
