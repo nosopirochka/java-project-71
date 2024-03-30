@@ -3,9 +3,8 @@ run-dist:
 	./build/install/app/bin/app
 test:
 	./gradlew test
-main-test:
+lint:
 	./gradlew checkstyleMain
-test-test:
 	./gradlew checkstyleTest
 build:
 	./gradlew build
