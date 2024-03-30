@@ -1,5 +1,4 @@
-.PHONY:
-	build
+.PHONY: build
 run-dist:
 	./build/install/app/bin/app
 test:
