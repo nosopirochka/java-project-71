@@ -1,4 +1,4 @@
-.gradle
+app/.gradle
 
 build
 
@@ -8,5 +8,5 @@ build
 bin
 .project*
 .classpath
-.idea/
 .factorypath
+.idea/
