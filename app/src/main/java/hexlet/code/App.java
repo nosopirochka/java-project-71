@@ -1,11 +1,12 @@
 package hexlet.code;
 
-import hexlet.code.Differ.Differ;
+import hexlet.code.differ.Differ;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
 import picocli.CommandLine.Parameters;
 
+import java.io.IOException;
 import java.util.concurrent.Callable;
 
 @Command(name = "gendiff", mixinStandardHelpOptions = true, version = "gendiff 1.0",
@@ -24,7 +25,7 @@ class App implements Callable<Integer> {
     @Override
     public Integer call() {
         try {
-            var result = Differ.generate(filepath1, filepath2);
+            var result = Differ.generate(filepath1, filepath2, format);
             System.out.println(result);
             return 0;
         } catch (Exception error) {
